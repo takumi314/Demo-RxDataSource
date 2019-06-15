@@ -6,13 +6,15 @@ target 'Demo-RxDataSource' do
   use_frameworks!
 
   # Pods for Demo-RxDataSource
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'RxDataSources', '~> 4.0'
 
   target 'Demo-RxDataSourceTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'RxSwift', '~> 5'
-    pod 'RxCocoa', '~> 5'
-    pod 'RxDataSources', '~> 4.0'
+    pod 'RxBlocking', '~> 5'
+    pod 'RxTest', '~> 5'
   end
 
   target 'Demo-RxDataSourceUITests' do

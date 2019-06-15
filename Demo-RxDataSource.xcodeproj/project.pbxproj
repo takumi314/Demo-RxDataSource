@@ -176,6 +176,7 @@
 				E1EB688622B4FFA200E4F870 /* Sources */,
 				E1EB688722B4FFA200E4F870 /* Frameworks */,
 				E1EB688822B4FFA200E4F870 /* Resources */,
+				C37C733359FA9DB3DDF10C74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,6 +357,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo-RxDataSourceTests/Pods-Demo-RxDataSourceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C37C733359FA9DB3DDF10C74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-RxDataSource/Pods-Demo-RxDataSource-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-RxDataSource/Pods-Demo-RxDataSource-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo-RxDataSource/Pods-Demo-RxDataSource-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CC86278359B54FED0FAE4445 /* [CP] Check Pods Manifest.lock */ = {
