@@ -17,6 +17,8 @@
 		E1EB689822B4FFA800E4F870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EB689622B4FFA800E4F870 /* LaunchScreen.storyboard */; };
 		E1EB68A322B4FFA800E4F870 /* Demo_RxDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB68A222B4FFA800E4F870 /* Demo_RxDataSourceTests.swift */; };
 		E1EB68AE22B4FFA800E4F870 /* Demo_RxDataSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB68AD22B4FFA800E4F870 /* Demo_RxDataSourceUITests.swift */; };
+		E1FEC36A22F33A0D0056250F /* CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FEC36922F33A0D0056250F /* CustomData.swift */; };
+		E1FEC36C22F33A690056250F /* SectionOfCustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FEC36B22F33A690056250F /* SectionOfCustomData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		E1EB68A922B4FFA800E4F870 /* Demo-RxDataSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-RxDataSourceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EB68AD22B4FFA800E4F870 /* Demo_RxDataSourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_RxDataSourceUITests.swift; sourceTree = "<group>"; };
 		E1EB68AF22B4FFA800E4F870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FEC36922F33A0D0056250F /* CustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomData.swift; sourceTree = "<group>"; };
+		E1FEC36B22F33A690056250F /* SectionOfCustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionOfCustomData.swift; sourceTree = "<group>"; };
 		E335DA6C4E4086C5306A3201 /* Pods-Demo-RxDataSourceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-RxDataSourceUITests.debug.xcconfig"; path = "Target Support Files/Pods-Demo-RxDataSourceUITests/Pods-Demo-RxDataSourceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5CA163599BE0AC947EBE27C /* Pods-Demo-RxDataSourceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-RxDataSourceTests.release.xcconfig"; path = "Target Support Files/Pods-Demo-RxDataSourceTests/Pods-Demo-RxDataSourceTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED36323F4AAB755BCCE6675C /* Pods-Demo-RxDataSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-RxDataSource.release.xcconfig"; path = "Target Support Files/Pods-Demo-RxDataSource/Pods-Demo-RxDataSource.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				E1EB689422B4FFA800E4F870 /* Assets.xcassets */,
 				E1EB689622B4FFA800E4F870 /* LaunchScreen.storyboard */,
 				E1EB689922B4FFA800E4F870 /* Info.plist */,
+				E1FEC36922F33A0D0056250F /* CustomData.swift */,
+				E1FEC36B22F33A690056250F /* SectionOfCustomData.swift */,
 			);
 			path = "Demo-RxDataSource";
 			sourceTree = "<group>";
@@ -422,8 +428,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FEC36A22F33A0D0056250F /* CustomData.swift in Sources */,
 				E1EB689022B4FFA200E4F870 /* ViewController.swift in Sources */,
 				E1EB688E22B4FFA200E4F870 /* AppDelegate.swift in Sources */,
+				E1FEC36C22F33A690056250F /* SectionOfCustomData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
