@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		E1EB689822B4FFA800E4F870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EB689622B4FFA800E4F870 /* LaunchScreen.storyboard */; };
 		E1EB68A322B4FFA800E4F870 /* Demo_RxDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB68A222B4FFA800E4F870 /* Demo_RxDataSourceTests.swift */; };
 		E1EB68AE22B4FFA800E4F870 /* Demo_RxDataSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB68AD22B4FFA800E4F870 /* Demo_RxDataSourceUITests.swift */; };
+		E1FEC36A22F33A0D0056250F /* CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FEC36922F33A0D0056250F /* CustomData.swift */; };
+		E1FEC36C22F33A690056250F /* SectionOfCustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FEC36B22F33A690056250F /* SectionOfCustomData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		E1EB68A922B4FFA800E4F870 /* Demo-RxDataSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-RxDataSourceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EB68AD22B4FFA800E4F870 /* Demo_RxDataSourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_RxDataSourceUITests.swift; sourceTree = "<group>"; };
 		E1EB68AF22B4FFA800E4F870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FEC36922F33A0D0056250F /* CustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomData.swift; sourceTree = "<group>"; };
+		E1FEC36B22F33A690056250F /* SectionOfCustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionOfCustomData.swift; sourceTree = "<group>"; };
 		E335DA6C4E4086C5306A3201 /* Pods-Demo-RxDataSourceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-RxDataSourceUITests.debug.xcconfig"; path = "Target Support Files/Pods-Demo-RxDataSourceUITests/Pods-Demo-RxDataSourceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5CA163599BE0AC947EBE27C /* Pods-Demo-RxDataSourceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-RxDataSourceTests.release.xcconfig"; path = "Target Support Files/Pods-Demo-RxDataSourceTests/Pods-Demo-RxDataSourceTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED36323F4AAB755BCCE6675C /* Pods-Demo-RxDataSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-RxDataSource.release.xcconfig"; path = "Target Support Files/Pods-Demo-RxDataSource/Pods-Demo-RxDataSource.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +103,6 @@
 				E335DA6C4E4086C5306A3201 /* Pods-Demo-RxDataSourceUITests.debug.xcconfig */,
 				74F9288831938B533AE2CE13 /* Pods-Demo-RxDataSourceUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +137,8 @@
 				E1EB689422B4FFA800E4F870 /* Assets.xcassets */,
 				E1EB689622B4FFA800E4F870 /* LaunchScreen.storyboard */,
 				E1EB689922B4FFA800E4F870 /* Info.plist */,
+				E1FEC36922F33A0D0056250F /* CustomData.swift */,
+				E1FEC36B22F33A690056250F /* SectionOfCustomData.swift */,
 			);
 			path = "Demo-RxDataSource";
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				E1EB688622B4FFA200E4F870 /* Sources */,
 				E1EB688722B4FFA200E4F870 /* Frameworks */,
 				E1EB688822B4FFA200E4F870 /* Resources */,
+				C37C733359FA9DB3DDF10C74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,6 +365,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo-RxDataSourceTests/Pods-Demo-RxDataSourceTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C37C733359FA9DB3DDF10C74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-RxDataSource/Pods-Demo-RxDataSource-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-RxDataSource/Pods-Demo-RxDataSource-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo-RxDataSource/Pods-Demo-RxDataSource-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CC86278359B54FED0FAE4445 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,8 +428,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FEC36A22F33A0D0056250F /* CustomData.swift in Sources */,
 				E1EB689022B4FFA200E4F870 /* ViewController.swift in Sources */,
 				E1EB688E22B4FFA200E4F870 /* AppDelegate.swift in Sources */,
+				E1FEC36C22F33A690056250F /* SectionOfCustomData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +544,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -573,6 +599,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
